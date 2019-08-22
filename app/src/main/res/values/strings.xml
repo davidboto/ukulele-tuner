@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ukulele Tuner</string>
+
+    <!-- main_activity buttons titles -->
+    
+    <string name="G_chord">G</string>
+    <string name="C_chord">C</string>
+    <string name="E_chord">E</string>
+    <string name="A_chord">A</string>
+    
+</resources>
