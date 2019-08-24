@@ -10,19 +10,15 @@ import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.ToggleButton;
 
 public class MainActivity extends Activity implements OnClickListener,
 		MediaPlayer.OnCompletionListener {
 
 	private MediaPlayer mPlayer = null;
-	private MyTask objMyTask;
 
 	static int[] Chords_Buttons = {
 		R.id.tgbtn_G,
@@ -149,36 +145,6 @@ public class MainActivity extends Activity implements OnClickListener,
 			mPlayer = null;
 		}
     	img.setImageResource(R.drawable.ukulele);
-	}
-
-	class MyTask extends AsyncTask<Void, Integer, Void> {
-
-		@Override
-		protected void onPreExecute() {
-			super.onPreExecute();
-		}
-
-		@Override
-		protected Void doInBackground(Void... params) {
-			return null;
-		}
-
-		@Override
-		protected void onProgressUpdate(Integer... values) {
-			super.onProgressUpdate(values);
-		}
-
-		@Override
-		protected void onPostExecute(Void result) {
-			super.onPostExecute(result);
-		}
-	}
-	
-	@Override
-	public void onPause() {
-	    super.onPause();
-		stopPlaying();
-		uncheckAllToggleButtons(null);
 	}
 
 }

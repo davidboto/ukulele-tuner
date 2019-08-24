@@ -20,15 +20,16 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
 
             <ImageView
                 android:id="@+id/imgVw"
                 android:layout_width="match_parent"
-                android:layout_height="637dp"
+                android:layout_height="wrap_content"
                 android:src="@drawable/ukulele" />
         </LinearLayout>
-<!-- 
+<!--
         <LinearLayout
             android:id="@+id/lln2"
             android:layout_width="fill_parent"
@@ -68,48 +69,48 @@
                 android:text="@string/A_chord" />
         </LinearLayout>
          -->
-                <LinearLayout
+        <LinearLayout
             android:id="@+id/lln2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:layout_weight="0.05"
-            android:orientation="horizontal" >
+            android:layout_weight="0.01"
+            android:orientation="horizontal">
 
-                  <ToggleButton
-                      android:id="@+id/tgbtn_G"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_weight="0.24"
-                      android:textOff="@string/G_chord"
-                      android:textOn="@string/G_chord" />
+            <ToggleButton
+                android:id="@+id/tgbtn_G"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.24"
+                android:textOff="@string/G_chord"
+                android:textOn="@string/G_chord" />
 
-                  <ToggleButton
-                      android:id="@+id/tgbtn_C"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_weight="0.25"
-                      android:textOn="@string/C_chord" 
-    				  android:textOff="@string/C_chord" />
+            <ToggleButton
+                android:id="@+id/tgbtn_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:textOff="@string/C_chord"
+                android:textOn="@string/C_chord" />
 
-                  <ToggleButton
-                      android:id="@+id/tgbtn_E"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_weight="0.25"
-                      android:textOn="@string/E_chord" 
-    				  android:textOff="@string/E_chord" />
+            <ToggleButton
+                android:id="@+id/tgbtn_E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:textOff="@string/E_chord"
+                android:textOn="@string/E_chord" />
 
-                  <ToggleButton
-                      android:id="@+id/tgbtn_A"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_weight="0.25"
-                      android:textOn="@string/A_chord" 
-    				  android:textOff="@string/A_chord" />
+            <ToggleButton
+                android:id="@+id/tgbtn_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:textOff="@string/A_chord"
+                android:textOn="@string/A_chord" />
 
-                </LinearLayout>
-                
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
