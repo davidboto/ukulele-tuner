@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 10
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId "com.botopink.ukuleletunning"
-        minSdkVersion 10
-        targetSdkVersion 10
+        minSdkVersion 26
+        targetSdkVersion 26
     }
 
     buildTypes {
