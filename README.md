@@ -1,2 +1,6 @@
-# ukulele-tuner
-Four buttons, four sounds. Very simple app to tune ukuleles.
+Readme
+
+Simple ukulele tunner for Android.
+
+Available to download at Play Store ([Ukulele Tuner][1]).
+[1]: https://play.google.com/store/apps/details?id=com.botopink.ukuleletunning "Ukulele Tuner"
