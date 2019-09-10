@@ -3,11 +3,7 @@ package com.aquarelah.ukuleletuner;
 import com.aquarelah.ukuleletunning.R;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -53,7 +49,7 @@ public class MainActivity extends Activity implements OnClickListener,
 
 		boolean on;
 		switch (view.getId()) {
-		case R.id.tgbtn_G:
+			case R.id.tgbtn_G:
 			on = tgbtn[0].isChecked();
 		    if (on) {
 				stopPlaying();
@@ -70,8 +66,7 @@ public class MainActivity extends Activity implements OnClickListener,
 
 		    }
 
-		case R.id.tgbtn_C:
-
+			case R.id.tgbtn_C:
 			on = tgbtn[1].isChecked();
 		    if (on) {
 				stopPlaying();
@@ -87,8 +82,7 @@ public class MainActivity extends Activity implements OnClickListener,
 				uncheckAllToggleButtons(null);
 		    }
 		    
-		case R.id.tgbtn_E:
-
+			case R.id.tgbtn_E:
 			on = tgbtn[2].isChecked();
 		    if (on) {
 				stopPlaying();
@@ -104,8 +98,7 @@ public class MainActivity extends Activity implements OnClickListener,
 				uncheckAllToggleButtons(null);
 		    }
 		    
-		case R.id.tgbtn_A:
-
+			case R.id.tgbtn_A:
 			on = tgbtn[3].isChecked();
 		    if (on) {
 				stopPlaying();
@@ -120,8 +113,7 @@ public class MainActivity extends Activity implements OnClickListener,
 		    	stopPlaying();
 				uncheckAllToggleButtons(null);
 		    }
-		    
-		        
+
 		}
 	}
 

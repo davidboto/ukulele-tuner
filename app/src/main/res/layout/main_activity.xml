@@ -29,46 +29,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ukulele" />
         </LinearLayout>
-<!--
-        <LinearLayout
-            android:id="@+id/lln2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_weight="0.2"
-            android:orientation="horizontal" 
-            android:visibility="invisible"
-            >
 
-            <Button
-                android:id="@+id/btn_G"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:text="@string/G_chord" />
-
-            <Button
-                android:id="@+id/btn_C"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:text="@string/C_chord" />
-
-            <Button
-                android:id="@+id/btn_E"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:text="@string/E_chord" />
-
-            <Button
-                android:id="@+id/btn_A"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.25"
-                android:text="@string/A_chord" />
-        </LinearLayout>
-         -->
         <LinearLayout
             android:id="@+id/lln2"
             android:layout_width="fill_parent"
